@@ -1,4 +1,4 @@
-package com.customview;
+package com.jiang.library;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;

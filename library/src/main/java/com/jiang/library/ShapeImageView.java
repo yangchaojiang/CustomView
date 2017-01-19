@@ -1,4 +1,4 @@
-package com.customview;
+package com.jiang.library;
 
 import android.content.Context;
 import android.content.res.TypedArray;

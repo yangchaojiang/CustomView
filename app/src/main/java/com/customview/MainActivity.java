@@ -2,13 +2,14 @@ package com.customview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.jiang.library.TextDoubleView;
+
 public class MainActivity extends AppCompatActivity {
     public  static  final  String TAG="MainActivity";
-  TextDoubleView  textDoubleView;
+  TextDoubleView textDoubleView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
