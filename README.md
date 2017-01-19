@@ -8,23 +8,23 @@
       android:src="@mipmap/sssss"/>
      ```
  # 2变色的加载圆形进度
-  ```xml
+ 
      <com.customview.CircularProgress
       android:layout_width="30dp"
       android:layout_height="30dp" />
-    ```
+     ```
  # 3 双击TextView 
  # #注意实现点击onClick双击事件才生效
-   ```xml
+  
   <com.customview.TextDoubleView
        app:is_left="false"
        android:text="这个是双击TextView"
        android:id="@+id/textDoubleView"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content" />
-         ```
- #  5 im尖角ImageView
-   ```xml
+       ```
+ #5im尖角ImageView
+ 
   <com.customview.ChatImageView
        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
