@@ -1,4 +1,7 @@
 # CustomView
+#ScreenShot
+![jietu.png](jietu.png)
+#Usage
 #自定义控件 圆角ImageView 变色的加载圆形进度。 支持双击TextView，im的聊天的左右尖角ImageView
  # 1 圆角ImageView
  ```xml
