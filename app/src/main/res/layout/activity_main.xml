@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.customview.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <com.customview.ChatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/aaaa"
+        app:bubble_angle="10dp"
+        app:bubble_arrowHeight="15dp"
+        app:bubble_arrowLocation="left"
+        app:bubble_arrowOffset="3dp"
+        app:bubble_arrowTop="20dp"
+        app:bubble_arrowWidth="8dp"/>
+    <com.customview.ChatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/aaaa"
+        app:bubble_angle="10dp"
+        app:bubble_arrowHeight="15dp"
+        app:bubble_arrowLocation="right"
+        app:bubble_arrowOffset="3dp"
+        app:bubble_arrowTop="20dp"
+        app:bubble_arrowWidth="8dp"/>
+    <com.customview.CircularProgress
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <com.customview.ShapeImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/sssss"/>
+    <com.customview.TextDoubleView
+        app:is_left="false"
+        android:text="这个是双击TextView"
+        android:id="@+id/textDoubleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShapeImageView">
+        <attr name="shape_mode" format="enum">
+            <enum name="round_rect" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+        <attr name="round_radius" format="dimension" />
+    </declare-styleable>
+    <!--聊天的头像-->
+    <declare-styleable name="BubbleImageView">
+        <attr name="bubble_arrowTop" format="dimension|reference" />
+        <attr name="bubble_arrowWidth" format="dimension|reference" />
+        <attr name="bubble_arrowHeight" format="dimension|reference" />
+        <attr name="bubble_arrowOffset" format="dimension|reference" />
+        <attr name="bubble_angle" format="dimension|reference" />
+        <attr name="bubble_arrowLocation" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+    <!--自定义加载-->
+    <declare-styleable name="CircularProgress">
+        <attr name="border_Width" format="dimension" />
+    </declare-styleable>
+    <!--双击的textView-->
+    <declare-styleable name="TextDoubleView">
+        <attr name="is_left" format="boolean" />
+    </declare-styleable>
+
+</resources>
